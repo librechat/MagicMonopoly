@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91610a75c2357e64cb2dd4f55a9fa6dd, type: 3}
+  m_Name: CircleTable
+  m_EditorClassIdentifier: 
+  DataList:
+  - Id: 0
+    Name: Basic
+    Level: 0
+    Type: 0
+    Target: 0
+    Attribute: 0
+    ActionList:
+    - Basic
+    PrecedingIdList: 
+    SucceedingIdList: 0100000002000000
+  - Id: 1
+    Name: Fire
+    Level: 1
+    Type: 0
+    Target: 0
+    Attribute: 0
+    ActionList:
+    - Basic
+    - Fire
+    PrecedingIdList: 00000000
+    SucceedingIdList: 
+  - Id: 2
+    Name: Spike
+    Level: 2
+    Type: 1
+    Target: 0
+    Attribute: 0
+    ActionList:
+    - Empty
+    - Basic
+    PrecedingIdList: 00000000
+    SucceedingIdList: 

@@ -1,0 +1,1 @@
+{"DataList":[{"Id":0,"Name":"Basic","Type":0,"Target":0,"EventList":["Basic"]},{"Id":1,"Name":"Fire","Type":0,"Target":0,"EventList":["Basic","Fire"]},{"Id":2,"Name":"Spike","Type":1,"Target":0,"EventList":["Basic"]}]}

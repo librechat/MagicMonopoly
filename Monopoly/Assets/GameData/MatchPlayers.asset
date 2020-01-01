@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561243ba5bc175a4e97d8ade4278ef26, type: 3}
+  m_Name: MatchPlayers
+  m_EditorClassIdentifier: 
+  DataList:
+  - Id: 0
+    Name: Alice
+    Group: 0
+    ColorId: 0
+    PlayerTypeId: 0
+  - Id: 1
+    Name: Bob
+    Group: 0
+    ColorId: 2
+    PlayerTypeId: 0
+  - Id: 2
+    Name: Charlie
+    Group: 0
+    ColorId: 4
+    PlayerTypeId: 0

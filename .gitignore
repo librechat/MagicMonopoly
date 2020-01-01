@@ -1,0 +1,10 @@
+Monopoly/Assets/Editor/EPPlus.4.5.3.1
+Monopoly/Library
+Monopoly/Logs
+Monopoly/Packages
+Monopoly/ProjectSettings
+
+*.meta
+*.csproj
+*.sln
+*.v12.suo

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1942e6feea6bdab4989ddd9434ad84d8, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  DataList:
+  - Id: 0
+    TypeName: 1
+    RenderPos: {x: 0, y: 0, z: 0}
+    PreviousGridIdList: 09000000
+    NextGridIdList: 01000000
+  - Id: 1
+    TypeName: 0
+    RenderPos: {x: 1, y: 0, z: 0}
+    PreviousGridIdList: 00000000
+    NextGridIdList: 02000000
+  - Id: 2
+    TypeName: 0
+    RenderPos: {x: 2, y: 0, z: 0}
+    PreviousGridIdList: 01000000
+    NextGridIdList: 03000000
+  - Id: 3
+    TypeName: 0
+    RenderPos: {x: 2.5, y: 0.866, z: 0}
+    PreviousGridIdList: 02000000
+    NextGridIdList: 04000000
+  - Id: 4
+    TypeName: 0
+    RenderPos: {x: 2, y: 1.732, z: 0}
+    PreviousGridIdList: 03000000
+    NextGridIdList: 05000000
+  - Id: 5
+    TypeName: 0
+    RenderPos: {x: 1, y: 1.732, z: 0}
+    PreviousGridIdList: 04000000
+    NextGridIdList: 06000000
+  - Id: 6
+    TypeName: 0
+    RenderPos: {x: 0, y: 1.732, z: 0}
+    PreviousGridIdList: 05000000
+    NextGridIdList: 07000000
+  - Id: 7
+    TypeName: 0
+    RenderPos: {x: -1, y: 1.732, z: 0}
+    PreviousGridIdList: 06000000
+    NextGridIdList: 08000000
+  - Id: 8
+    TypeName: 0
+    RenderPos: {x: -1.5, y: 0.866, z: 0}
+    PreviousGridIdList: 07000000
+    NextGridIdList: 09000000
+  - Id: 9
+    TypeName: 0
+    RenderPos: {x: -1, y: 0, z: 0}
+    PreviousGridIdList: 08000000
+    NextGridIdList: 00000000
