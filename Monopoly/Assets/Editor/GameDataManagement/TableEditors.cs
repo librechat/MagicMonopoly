@@ -30,6 +30,15 @@ public class ActionTableEditor : GameDataTableBaseEditor<ActionData>
     }
 }
 
+[CustomEditor(typeof(BuffTable))]
+public class BuffTableEditor : GameDataTableBaseEditor<BuffData>
+{
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+    }
+}
+
 [CustomEditor(typeof(GridTypeTable))]
 public class GridTypeTableEditor : GameDataTableBaseEditor<GridTypeData>
 {

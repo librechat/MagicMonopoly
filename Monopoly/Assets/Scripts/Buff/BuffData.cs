@@ -42,4 +42,16 @@ public class BuffData: GameDataBase
 
     public bool Negative;
     public string BuffActionName;
+
+    #region FieldFunctions
+    public override List<string> GetFieldNames()
+    {
+        List<string> s = base.GetFieldNames();
+        string[] addition = new string[] {
+            "Name", "Type", "Timing", "Life", "Effect", "Negative", "BuffActionName"
+        };
+        s.AddRange(addition);
+        return s;
+    }
+    #endregion
 }

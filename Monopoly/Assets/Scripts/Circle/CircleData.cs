@@ -48,7 +48,7 @@ public class CircleData : GameDataBase
     {
         List<string> s = base.GetFieldNames();
         string[] addition = new string[] {
-            "Name", "Type", "Target", "ActionList"
+            "Name", "Type", "Target", "Attribute", "ActionList"
         };
         s.AddRange(addition);
 

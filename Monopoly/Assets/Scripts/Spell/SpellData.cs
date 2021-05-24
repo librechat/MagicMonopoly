@@ -26,24 +26,10 @@ public class SpellData: GameDataBase
     {
         List<string> s = base.GetFieldNames();
         string[] addition = new string[] {
-            "Name", "Type", "Level", "Cost", "SpellEventName",
-            "PrecedingsIdList", "SucceedingsIdList"
+            "Name", "Type", "Level", "Cost", "SpellEventId"
         };
         s.AddRange(addition);
         return s;
-    }
-    public override string GetField(System.Reflection.FieldInfo field)
-    {
-        if (field.FieldType == typeof(SpellType)) return field.GetValue(this).ToString();
-        else return base.GetField(field);
-    }
-    public override void SetField(System.Reflection.FieldInfo field, string text)
-    {
-        if (field.FieldType == typeof(SpellType))
-        {
-            Type = (SpellType)Enum.Parse(typeof(SpellType), text);
-        }
-        else base.SetField(field, text);
     }
     #endregion
 }

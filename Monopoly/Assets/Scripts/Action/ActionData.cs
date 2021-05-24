@@ -28,4 +28,16 @@ public class ActionData: GameDataBase
     public bool Negative;
     public int Amount;
     public string BuffName;
+
+    #region FieldFunctions
+    public override List<string> GetFieldNames()
+    {
+        List<string> s = base.GetFieldNames();
+        string[] addition = new string[] {
+            "Name", "Type", "Target", "Negative", "Amount", "BuffName"
+        };
+        s.AddRange(addition);
+        return s;
+    }
+    #endregion
 }
